@@ -6,7 +6,7 @@ pipeline {
                 echo "Building..."
             }
             post {
-                echo "Post-build!"
+                // echo "Post-build!"
             }
         }
         stage("Test") {
