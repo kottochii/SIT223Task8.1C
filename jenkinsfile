@@ -5,9 +5,11 @@ pipeline {
             steps {
                 echo "Building..."
             }
+            /* 
             post {
-                // echo "Post-build!"
-            }
+            
+            } 
+            */
         }
         stage("Test") {
             steps {
